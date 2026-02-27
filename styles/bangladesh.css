@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
 
 }
+
+.fira-sans-regular {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* shared css */
-.btn-primary{
-    color:white;
+.btn-primary {
+    color: white;
     background-color: #006A50;
     border-radius: 8px;
     border: none;
@@ -15,14 +23,15 @@
     padding: 13px 26px;
 }
 
-.fira-sans-regular {
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.section-title {
+    font-size: 40px;
+    color: #0E0E0E;
 }
-body{
+
+body {
     background-color: #F5F5F5;
 }
+
 nav {
     margin: 24px 160px;
     display: flex;
@@ -30,37 +39,79 @@ nav {
     align-items: center;
 
 }
-nav button{
+
+nav button {
     color: #006A50;
     border: 1px solid #006A50;
     border-radius: 8px;
     padding: 10px 15px;
     font-weight: 600;
-    font-size: 18px;   
+    font-size: 18px;
 }
-.hero{
+
+.hero {
     background-color: #C6E4D6;
     display: flex;
     align-items: center;
     border-radius: 24px;
     margin: 20px 160px;
     padding: 80px 60px;
+    margin-bottom: 0px;
 }
-.hero-title2{
+
+.hero-title2 {
     color: #0E0E0E;
     opacity: 0.5;
     font-size: 24px;
 }
-.hero-title{
+
+.hero-title {
     font-size: 56px;
     margin: 20px 0px;
 }
-.hero button{
+
+.hero button {
     padding: 17px 34px;
 }
 
+.pillars-section {
+    margin: 80px 160px;
+}
+.pillars-section h1{
+    margin-bottom: 32px;
+}
+.pillars {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.pillar {
+    border-radius: 16px;
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+}
+
+.pillar img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+}
+
+.pillar-title {
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 0.8;
+    margin-bottom: 12px;
+}
+.description{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 0.7;
+}
 
 /* Color */
-.dark-1{
+.dark-1 {
     color: #0E0E0E;
 }
