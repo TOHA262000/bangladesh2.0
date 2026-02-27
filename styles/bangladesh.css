@@ -218,6 +218,48 @@ td {
     text-align-last: center;
     color:#0E0E0E ;
 }
+.news-section{
+    margin: 80px 160px;
+}
+.news-section-des{
+    margin-bottom: 32px;
+}
+.news-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+.news-card{
+    padding: 48px;
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 24px;
+}
+.news-img{
+    border-radius: 24px;
+    max-width: 408px;
+    max-height: 306px;
+}
+.news-title{
+    font-size: 32px;
+    color: #0E0E0E;
+    opacity: 0.8;
+}
+.aljazeera{
+    margin: 12px 0px;
+}
+.date-time{
+    margin-bottom: 12px;
+}
+.date{
+    margin-right: 12px;
+}
+.news-card button{
+    margin-top: 32px;
+}
 /* Color */
 .dark-1 {
     color: #0E0E0E;
