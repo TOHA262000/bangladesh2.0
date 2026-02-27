@@ -188,13 +188,15 @@ nav button {
     width: 100%;
     border-collapse: collapse;
 }
-.questions-table thead th{
+
+.questions-table thead th {
     padding: 24px;
     font-size: 20px;
-    color:#0E0E0E ;
+    color: #0E0E0E;
     border: none;
     background-color: #C6E4D6;
 }
+
 .questions-table th,
 td {
     border: 2px solid rgba(14, 14, 14, 0.15);
@@ -204,9 +206,14 @@ td {
 .questions-table tr h4 {
     padding: 36.5px 24px;
     font-size: 16px;
-    color:#0E0E0E ;
+    color: #0E0E0E;
 }
-.questions-table select{
+
+.answer {
+    text-align: center;
+}
+
+.questions-table select {
     margin: 24px;
     padding: 14px 10px;
     background-color: rgba(9, 161, 92, 0.15);
@@ -216,21 +223,25 @@ td {
     border-radius: 6px;
     text-align: center;
     text-align-last: center;
-    color:#0E0E0E ;
+    color: #0E0E0E;
 }
-.news-section{
+
+.news-section {
     margin: 80px 160px;
 }
-.news-section-des{
+
+.news-section-des {
     margin-bottom: 32px;
 }
-.news-cards{
+
+.news-cards {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    
+
 }
-.news-card{
+
+.news-card {
     padding: 48px;
     display: flex;
     gap: 32px;
@@ -238,28 +249,113 @@ td {
     background-color: white;
     border-radius: 24px;
 }
-.news-img{
+
+.news-img {
     border-radius: 24px;
     max-width: 408px;
     max-height: 306px;
 }
-.news-title{
+
+.news-title {
     font-size: 32px;
     color: #0E0E0E;
     opacity: 0.8;
 }
-.aljazeera{
+
+.aljazeera {
     margin: 12px 0px;
 }
-.date-time{
+
+.date-time {
     margin-bottom: 12px;
 }
-.date{
+
+.date {
     margin-right: 12px;
 }
-.news-card button{
+
+.news-card button {
     margin-top: 32px;
 }
+
+.donate {
+    text-align: center;
+    margin: 0px 160px;
+
+}
+
+.donate-desc {
+    margin: 26px auto;
+}
+
+.amounts {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 24px;
+    margin: 32px auto;
+}
+
+.amount {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 40px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.other-amount {
+
+    margin-right: 124px;
+    margin-left: 124px;
+    margin-bottom: 32px;
+
+}
+
+.other-amount input {
+    font-size: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 100%;      
+    box-sizing: border-box;
+}
+.sub{
+    margin: 80px 160px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.sub-contents{
+    padding: 80px 265px;
+    text-align: center;
+}
+.email-section{
+    margin: 24px auto;
+    display: flex;
+}
+.email-section input{
+    flex: 1;
+    padding: 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+    font-size: 16px;
+}
+.email-section button{
+    border-radius: 0px 8px 8px 0px;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+footer h1{
+    margin-bottom: 64px;
+}
+footer img{
+    margin: auto 23px;
+}
+
 /* Color */
 .dark-1 {
     color: #0E0E0E;
