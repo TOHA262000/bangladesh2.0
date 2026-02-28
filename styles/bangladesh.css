@@ -28,7 +28,7 @@ button:hover{
     font-weight: 600;
     font-size: 18px;
     padding: 13px 26px;
-    transition: transform 0.5s ease;
+    transition: transform 0.3s ease;
 }
 
 .section-title {
@@ -177,6 +177,7 @@ nav button {
     background-repeat: no-repeat;
     background-position: 25px 25px;
     border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
 .opinion-section {
@@ -311,7 +312,7 @@ td {
     padding: 40px;
     border-radius: 16px;
     background-color: white;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 
 .amount:hover{
@@ -331,7 +332,8 @@ td {
     font-size: 20px;
     padding: 20px 40px;
     text-align: center;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
     width: 100%;      
     box-sizing: border-box;
 }
@@ -368,6 +370,11 @@ footer h1{
 }
 footer img{
     margin: auto 23px;
+}
+
+footer hr{
+    opacity: 0.5;
+    margin-bottom: 32px;
 }
 
 /* Color */
